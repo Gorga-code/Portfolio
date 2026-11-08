@@ -54,7 +54,7 @@
   const search = document.getElementById('writeup-search');
   const count = document.getElementById('writeup-count');
 
-  const CATEGORIES = ['web', 'crypto', 'pwn', 'rev', 'reverse', 'forensic', 'forensics', 'misc', 'osint', 'stego', 'blockchain', 'binary'];
+  const CATEGORIES = ['web', 'crypto', 'pwn', 'rev', 'reverse', 'forensic', 'forensics', 'misc', 'osint', 'stego', 'blockchain', 'binary', 'privesc'];
   const pretty = s => s.replace(/\.(md|markdown|pdf|txt|ipynb)$/i, '').replace(/[_-]+/g, ' ').replace(/\s+/g, ' ').trim();
   const esc = s => s.replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
